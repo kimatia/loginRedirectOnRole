@@ -1,0 +1,50 @@
+body, h2{font-family: arial;color: #333333; background-color: #f2f2f2}
+a{color:#365899; text-decoration: none;}
+a:hover{color:#365899; text-decoration: underline;}
+#container{background-color: #ffffff;  width: 800px;}
+#wallContainer{padding: 20px; border: solid 1px #efefef;margin:10px 0px 10px 0px;}
+#wallPost{padding:10px 15px 10px 15px; font-weight: bold; border: 1px solid #365899;border-radius:4px;color:#ffffff;
+ float:right;background-color: #365899 }
+#updateBox, .commentInput{border: solid 1px #999999;}
+#wallFeed{clear:both;padding-top:10px;}
+textarea{display: block;background-color:solid 1px #dedede; width: 100%; border-radius:4px; margin-bottom: 10px; height: 50px}
+.feedCommentForm, .feedCommentGrid{margin-left: 85px;
+    clear: both;
+    padding: 10px 5px 10px 5px;
+    border-top: solid 1px #dedede;
+    width: 350px;
+    background: #f2f2f2; }
+.feedBody
+{
+min-height:75px;
+margin-bottom:10px;
+border-bottom:solid 1px #efefef; padding: 10px 0px 10px 0px;
+clear:both;
+}
+.feedImg
+{
+float:left;
+height:60px;
+width:60px;
+padding:5px;
+}
+.feedText
+{
+margin-left:75px;
+word-wrap:break-word; // Text justification
+overflow:hidden;
+padding:5px;
+display:block;
+word-wrap: break-word;
+}
+.feedText b{display: block; line-height: 30px}
+.feedLinks{margin-left:75px;padding:5px;font-size: 12px}
+.feedDelete{float:right; margin-right: 10px; font-weight: bold; padding:4px;}
+.commentImg{width: 32px ; height: 32px; float: left}
+.commentText{margin-left: 42px; font-size: 13px; width: 300px; word-wrap: break-word}
+.commentText b{line-height: 20px !important; }
+.commentInput{width: 344px;  height:40px }
+.commetDelete{float:right;}
+.commetDelete, .feedDelete, .commentLink, b{text-decoration: none; color: #365899}
+.commentSubmit{background: #365899; border: solid 1px #365899; padding:4px 6px 4px 6px; color: #ffffff; border-radius: 4px}
+#block{position:absolute;  width:350px; height:600px;margin-top:150px; }
